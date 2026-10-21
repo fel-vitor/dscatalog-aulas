@@ -1,9 +1,11 @@
 package com.devsuperior.dscatalog.dto;
 
 import com.devsuperior.dscatalog.entities.Category;
+import jakarta.persistence.Column;
 
 import java.io.Serial;
 import java.io.Serializable;
+import java.time.Instant;
 
 public class CategoryDTO implements Serializable {
     @Serial
